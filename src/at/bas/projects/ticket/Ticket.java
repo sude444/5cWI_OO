@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Ticket {
     private int id;
-    private long createdTimeStamp;
     private long payedTimeStamp;
+    private long createdTimeStamp;
     private Random random = new Random();
 
     public Ticket() {
